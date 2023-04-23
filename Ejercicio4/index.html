@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>E4</title>
+    <link rel="stylesheet"href="estilo.css">
+</head>
+<body>
+    <h1>Calificacion</h1>
+    <form>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label>Materia:</label>
+        <input type="text" id="materia" required>
+        <label>Nota 1:</label>
+        <input type="text" id="nota1" min="0" max="50" required>
+        <label>Nota 2:</label>
+        <input type="text" id="nota2" min="0" max="50" required>
+        <label>Nota 3:</label>
+        <input type="text" id="nota3" min="0" max="50" required>
+        <input type="button" value="Calcular" onclick="verifProm()">
+    </form>
+    <p id="resultado"></p>
+    <script src="app.js"></script>
+</body>
+</html>
