@@ -1,4 +1,4 @@
-function validar(){
+function val(){
     var texto=document.getElementById('texto').value;
     if (texto == ""){
         document.getElementById('area').value="campo en blanco";

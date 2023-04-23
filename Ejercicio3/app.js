@@ -1,7 +1,7 @@
 function verificar(){
     var nombre= document.getElementById("nombre").value;
     var edad = document.getElementById("edad").value;
-    var resul = document.getElementById("resultado");
+    var resul = document.getElementById("resul");
     if (edad >= 18) {
         resul.innerHTML = "Hola " + nombre + ", uted es mayor de edad";
       } else if(edad==0 || edad<0){
